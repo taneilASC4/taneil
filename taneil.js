@@ -1,8 +1,13 @@
-console.log("Taneil is awesome");
+//console.log("Taneil is awesome");
 
-console.log("hello world");
+//console.log("hello world");
 
-var i=0 i<6 i++{
-    console.log("bob", "mahdi", "cyril", "juan", "mike");
+function rand(num) {
+    //makes a random number between zero and your chosing
+    var randDec = Math.random() * num;
+    var randInt = Math.floor(randDec);
+    console.log(randInt);
+    return (randInt);
 }
 
+rand(14);

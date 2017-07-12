@@ -10,6 +10,9 @@ myPokemonRoster.length;
 var size = myPokemonRoster.length;
 //console.log(size);
 
-for (var i=0; i<4; i++){
-    console.log(myArray[i]);
+for (var j=0; j<5; j++) 
+    {for (var i=0; i<4; i++){
+    console.log(myPokemonRoster[i]);
+    
+}console.log("--------");
 }
