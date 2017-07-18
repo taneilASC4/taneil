@@ -8,15 +8,14 @@ var infernape = {
 
 
 };
-function pokemon (infernape, HP , attack, defense, legendary, name, type){
+function pokemon ( HP , attack, defense, legendary, type){
     this.HP = HP,
     this.attack = attack,
     this.defense = defense,
     this.legendary = legendary,
-    this.name = name,
-    this.type = type,
-    this.infernape = infernape
-};
+    this.type = type
+   
+}
 
 var infernape = new pokemon( 76, 106, 71, false, 'fire and fighting' );
 var luxray = new pokemon(80, 120, 79, false, 'electric' );
@@ -31,11 +30,24 @@ var roster = [
 ]
 
 
-var mypokedex =  (infernape, luxray, haunter, lucario);
-console.log(mypokedex.HP);
-console.log(mypokedex.attack);
-console.log(mypokedex.defense);
-console.log(mypokedex.legendary);
-console.log(mypokedex.name);
-console.log(mypokedex.type);
-console.log(mypokedex.infernape);
+
+
+function printroster(){
+    var mypokedex =  [infernape, luxray, haunter, lucario];
+
+    for(var i=0; i<3; i++){
+    console.log(mypokedex[i]['HP']);
+    console.log(mypokedex[i]['attack']);
+    console.log(mypokedex[i]['defense']);
+    console.log(mypokedex[i]['legendary']);
+    console.log(mypokedex[i]['type']);
+}
+}
+
+
+function pokemonattacked(){
+    for (var i=0; i<3; i++){
+       console.log(mypokedex[i].HP - 10);
+    }
+}
+pokemonattacked();
