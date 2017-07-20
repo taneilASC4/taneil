@@ -3,22 +3,17 @@ function setup() {
     background(150); //color of the canvas
     
 }
-var x = 0
-var y = 0
+var x = 5;
+var y = 5;
+var xPos = 0;
+var yPos = 0;
 
 function draw() {
     background(150);
-    ellipse(x, y, 50);
-x+= 10;
-y+= 10;
+    if (xPos < 0 || xPos > 500) x = -x;
+    if (yPos < 0 || yPos > 400) y = -y;
+    xPos += x;
+    yPos += y;
+    ellipse(xPos, yPos, 50);
 }
 
-if (y > 400){
-    y-=10;
-}
-else{};
-
-if (x > 500){
-    x-=10;
-}
-else{};

@@ -44,6 +44,9 @@ function printroster(){
 }
 }
 
+function roster(){
+    console.log([0])
+}
 
 function pokemonattacked(){
     for (var i=0; i<3; i++){
