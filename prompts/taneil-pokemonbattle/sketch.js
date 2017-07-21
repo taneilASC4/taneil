@@ -3,6 +3,7 @@ function setup(){
     background(51);
 }
     function draw() {
+        fill('white');
         rect(0, 0, 400, 100);
         ellipse(900, 53, 100, 100);
         rect(600, 600, 400, 100);
@@ -18,14 +19,19 @@ function setup(){
         //the text of the opponents pokemon
         textSize(32);
         text("opp's pokemon", 769, 130);
+        fill('green');
+        rect(88, 70, 300, 10);
+        rect(690, 433, 300, 10);
+        
+        fill('black');
         //op's health
         textSize(32);
         text("health", 10, 35);
         //your health
         textSize(32);
         text("health", 610, 390);
-
+        
+       
     }
    
-
 
