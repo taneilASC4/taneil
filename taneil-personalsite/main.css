@@ -1,0 +1,117 @@
+
+/*.logo-ebay { 
+    font-family: Helvetica,Sans-serif;
+    font-size: 50px;
+    letter-spacing: -4px;
+}
+.ebay-e { 
+    color: #CC0000; 
+}
+.ebay-b { 
+    color: #0000FF; 
+}
+.ebay-a { 
+    color: #FFA500; 
+}
+.ebay-y { 
+    color: #008000; 
+}*/
+@-moz-font-face { 
+    font-family: Catull; 
+    src: url(../font/Catull.ttf)
+    font-weight:400; 
+    text-position:auto;
+    padding:10px;
+}
+@-webkit-font-face { 
+    font-family: Catull; 
+    src: url(../font/Catull.ttf); 
+    font-weight:400; 
+}
+@-o-font-face { 
+    font-family: Catull; 
+    src: url(../font/Catull.ttf); 
+    font-weight:400; 
+}
+@-ms-font-face { 
+    font-family: Catull; 
+    src: url(../font/Catull.ttf); 
+    font-weight:400; 
+}
+@font-face { 
+    font-family: Catull; 
+    src: url(../font/Catull.ttf); 
+    font-weight:400; 
+}
+.google-logo {
+    font-family: Catull,Sans-Serif;
+    font-size: 50px;
+}
+.google-G { 
+    color:#0047F1; 
+}
+.google-o1 { 
+    color:#DD172C; 
+}
+.google-o2 { 
+    color:#F9A600;
+    text-underline-position: center; 
+}
+.google-g { 
+    color:#0047F1; 
+}
+.google-l { 
+    color:#00930E; 
+}
+.google-e { 
+    color:#E61B31; 
+}
+
+input[type=text] {
+    width: 500px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/*nav bar*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
