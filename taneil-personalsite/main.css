@@ -1,82 +1,4 @@
-
-/*.logo-ebay { 
-    font-family: Helvetica,Sans-serif;
-    font-size: 50px;
-    letter-spacing: -4px;
-}
-.ebay-e { 
-    color: #CC0000; 
-}
-.ebay-b { 
-    color: #0000FF; 
-}
-.ebay-a { 
-    color: #FFA500; 
-}
-.ebay-y { 
-    color: #008000; 
-}*/
-@-moz-font-face { 
-    font-family: Catull; 
-    src: url(../font/Catull.ttf)
-    font-weight:400; 
-    text-position:auto;
-    padding:10px;
-}
-@-webkit-font-face { 
-    font-family: Catull; 
-    src: url(../font/Catull.ttf); 
-    font-weight:400; 
-}
-@-o-font-face { 
-    font-family: Catull; 
-    src: url(../font/Catull.ttf); 
-    font-weight:400; 
-}
-@-ms-font-face { 
-    font-family: Catull; 
-    src: url(../font/Catull.ttf); 
-    font-weight:400; 
-}
-@font-face { 
-    font-family: Catull; 
-    src: url(../font/Catull.ttf); 
-    font-weight:400; 
-}
-.google-logo {
-    font-family: Catull,Sans-Serif;
-    font-size: 50px;
-}
-.google-G { 
-    color:#0047F1; 
-}
-.google-o1 { 
-    color:#DD172C; 
-}
-.google-o2 { 
-    color:#F9A600;
-    text-underline-position: center; 
-}
-.google-g { 
-    color:#0047F1; 
-}
-.google-l { 
-    color:#00930E; 
-}
-.google-e { 
-    color:#E61B31; 
-}
-
-input[type=text] {
-    width: 500px;
-    height: 30px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
 /*nav bar*/
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -106,12 +28,39 @@ li a:hover {
     background-color: #4CAF50;
 }
 
-/* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 1px solid #bbb;
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-li:last-child {
-    border-right: none;
+/* end nav bar*/
+
+/*background*/
+body {
+    background-image: 'img_8991.jpg';
+    background-size: cover;
+    margin-top: 50px;
+}
+/*end of background*/
+
+/*rivers code*/
+#subtitle {
+  color: gray;
+   transition: all;
+   /*transition-delay: 5s;
+   transition-duration: 1s;    */
 }
 
+/*make the nav bar go to another page*/
+body{
+    font-family: arial, sans-serif;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.p{
+
+}

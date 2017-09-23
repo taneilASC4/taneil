@@ -1,0 +1,66 @@
+
+
+body {
+   background-color: lightslategrey;
+}
+.google-logo {
+  font-family: Catull,Sans-Serif;
+  font-size: 50px;
+}
+.google-G {
+  color:#0047F1 ; 
+}
+.google-o1 {
+  color:#DD172C ; 
+}
+.google-o2 {
+  color:#F9A600 ; 
+}
+.google-g {
+  color:#0047F1 ; 
+}
+.google-l {
+  color:#00930E ; 
+}
+.google-e {
+  color:#E61B31 ; 
+}
+.trademark {
+   color: black;
+   font-size: 40px;
+}
+
+   body {
+   margin:0;
+   padding:0;
+   height:100%;
+   }
+   div {
+   position: center;
+   }
+   /*#con {
+   min-height:100%;
+   position:relative;
+   }*/
+   /*#content {
+   height: 1000px;
+   padding-bottom:60px;
+   } */
+
+   #footer {
+   position: bottom;
+   bottom:0;
+   width:100%;
+   height:60px;
+   }
+.noogle {
+   position: absolute;
+   bottom: 0;
+}
+#chrome {
+   position: absolute;
+   top: 30%;
+   left: 37%;
+   
+}
+

@@ -1,0 +1,40 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Rock-Paper-Scissors! Royale</title>
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- p5.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+
+    <!--custom files-->
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body><h3 id="removeable"> Player Score : 0  Computer Score : 0  </h3>
+    <h1>Rock-Paper-Scissors! Royale</h1>
+    <div class="display">
+        <!-- to put the Player's Choice  -->
+        <div class="container">
+           
+        </div>
+    </div>    
+
+    <!-- For the user to choose rock, paper, or scissors  -->
+    <button type="Rock" onclick="decideWinner(&quot;rock&quot;, compChoice)">Rock</button>
+    <button type="Paper" onclick="decideWinner(&quot;paper&quot;, compChoice)">Paper</button>
+    <button type="Scissors" onclick="decideWinner(&quot;scissors&quot;, compChoice)">Scissors</button>
+    
+    <form>
+        Initials:<br>
+          <input type="text" name="initials"><br>
+          <input type="submit" onclick="" value="Submit">
+    </form>
+
+</body>
+</html>
